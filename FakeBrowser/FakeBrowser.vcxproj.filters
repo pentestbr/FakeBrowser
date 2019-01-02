@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\FakeBrowser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Markup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Protocol.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SocketIO.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary_Chrome.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary_chrome_oepnsslwrapper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary_ncrypt.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary_nss3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSLLibrary_secur32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Markup.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Protocol.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SocketIO.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SSLLibrary.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SSLLibrary_Chrome.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SSLLibrary_ncrypt.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SSLLibrary_nss3.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SSLLibrary_secur32.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Utility.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FakeBrowser.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{222c3a45-e975-47f3-b8e6-2790d12bd1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d13a97cb-24ee-4efa-b488-c475f98c4fd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

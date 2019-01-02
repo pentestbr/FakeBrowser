@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FakeBrowser", "FakeBrowser\FakeBrowser.vcxproj", "{D16B71FA-9F07-4486-9341-F29045B9A5DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA} = {46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008} = {4B910CEA-46FD-42D7-9DB9-3F603E0A3008}
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB} = {582F3BFF-87C4-43E5-BFB7-250A90A387CB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{5B6E41B6-CB08-4591-83EA-FA2FE6CEF040}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common++", "3rdParty\PcapPlusPlus\mk\vs2015\Common++.vcxproj", "{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Packet++", "3rdParty\PcapPlusPlus\mk\vs2015\Packet++.vcxproj", "{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibNghttp2", "3rdParty\nghttp2\LibNghttp2.vcxproj", "{582F3BFF-87C4-43E5-BFB7-250A90A387CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Debug|x64.ActiveCfg = Debug|x64
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Debug|x64.Build.0 = Debug|x64
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Debug|x86.Build.0 = Debug|Win32
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Release|x64.ActiveCfg = Release|x64
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Release|x64.Build.0 = Release|x64
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Release|x86.ActiveCfg = Release|Win32
+		{D16B71FA-9F07-4486-9341-F29045B9A5DF}.Release|x86.Build.0 = Release|Win32
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Debug|x64.ActiveCfg = Debug|x64
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Debug|x64.Build.0 = Debug|x64
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Debug|x86.Build.0 = Debug|Win32
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Release|x64.ActiveCfg = Release|x64
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Release|x64.Build.0 = Release|x64
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Release|x86.ActiveCfg = Release|Win32
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA}.Release|x86.Build.0 = Release|Win32
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Debug|x64.ActiveCfg = Debug|x64
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Debug|x64.Build.0 = Debug|x64
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Debug|x86.Build.0 = Debug|Win32
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Release|x64.ActiveCfg = Release|x64
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Release|x64.Build.0 = Release|x64
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Release|x86.ActiveCfg = Release|Win32
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008}.Release|x86.Build.0 = Release|Win32
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Debug|x64.ActiveCfg = Debug|x64
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Debug|x64.Build.0 = Debug|x64
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Debug|x86.Build.0 = Debug|Win32
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Release|x64.ActiveCfg = Release|x64
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Release|x64.Build.0 = Release|x64
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Release|x86.ActiveCfg = Release|Win32
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46A8C62D-9FB3-4134-A2FE-3BC6909A46AA} = {5B6E41B6-CB08-4591-83EA-FA2FE6CEF040}
+		{4B910CEA-46FD-42D7-9DB9-3F603E0A3008} = {5B6E41B6-CB08-4591-83EA-FA2FE6CEF040}
+		{582F3BFF-87C4-43E5-BFB7-250A90A387CB} = {5B6E41B6-CB08-4591-83EA-FA2FE6CEF040}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <PcapPlusPlusHome>C:\Users\scott_tsao\Documents\Visual Studio 2015\Projects\Performance\3rdParty\PcapPlusPlus</PcapPlusPlusHome>
+    <WinPcapHome>C:\Users\scott_tsao\Desktop\WpdPack</WinPcapHome>
+    <PThreadWin32Home>C:\Users\scott_tsao\Desktop\pthreads-w32-2-9-1-release</PThreadWin32Home>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup />
+</Project>
