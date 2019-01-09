@@ -631,8 +631,7 @@ namespace Behavior
 
 		/*
 		Before calling EncryptPacket function need to cauclate the size of data encrypted, 
-		due to real edge the parameter outSize passed into SSLEncryptPacket  will equal the *dwWriteen, 
-		Osprey current version used the outSize as the size of the data encrypted.
+		due to real edge the parameter outSize passed into SSLEncryptPacket  will equal the *dwWriteen
 		*/
 
 		if (inSize < 28) {
