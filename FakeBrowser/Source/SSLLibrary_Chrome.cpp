@@ -488,7 +488,7 @@ namespace Behavior
 				OPENSSL_free(*ptr_alpn_client_proto_list);
 				*ptr_alpn_client_proto_list = nullptr;
 			}
-			//Osprey needs SSL_free event to know the connection was disconnected
+
 			SSL_free(m_SslClient);
 			m_SslClient = nullptr;
 		}
@@ -498,7 +498,7 @@ namespace Behavior
 		}
 
 		if (m_NSSSocket != nullptr) {
-			//Osprey needs pfnPR_Close event to know the connection was disconnected
+
 			m_nssPfnTable.pfnPR_Close(m_NSSSocket);
 			m_NSSSocket = nullptr;
 		}
