@@ -527,6 +527,7 @@ int _tmain(int argc, _TCHAR *argv[])
 	BYTE* bResponse = nullptr;
 	size_t stRecSize = 0;
 
+	sProxy = std::string(wsProxy.begin(), wsProxy.end());
 	Behavior::SocketIO skSocket;
 	if (sProxy != "") {
 		if (!skSocket.ConnectToServer(sProxy)) {
