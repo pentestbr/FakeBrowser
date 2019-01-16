@@ -317,7 +317,7 @@ void ReceiveRromServer(Behavior::SocketIO &socket)
 	}
 }
 
-BOOL SendWebSocket(std::string sProxy, BOOL isProxy, std::string url, Behavior::SocketIO &socket, Behavior::CSSL* &pSSLLib, BYTE* &response, size_t &recSize)
+BOOL SendWebSocket(std::string url, Behavior::SocketIO &socket, BYTE* &response, size_t &recSize)
 {
 	std::string sProtocol = "", sHostName, sPort, sPath;
 	if (!Utility::ParseURLInfo(url, sProtocol, sHostName, sPort, sPath)) {
@@ -564,7 +564,7 @@ int _tmain(int argc, _TCHAR *argv[])
 		// Send WebSocket
 		if (sUrlInfo.find("ws://") != std::string::npos 
 			|| sUrlInfo.find("wss://") != std::string::npos) {
-			if (!SendWebSocket(sProxy, isProxy, sUrlInfo, skSocket, pSSLLib, bResponse, stRecSize)) {
+			if (!SendWebSocket(sUrlInfo, skSocket, bResponse, stRecSize)) {
 				return 1;
 			}
 		}
