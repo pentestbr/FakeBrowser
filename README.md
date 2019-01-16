@@ -1,5 +1,5 @@
 # FakeBrowser
-Implement Chrome, Firefox, IE, Edge https and proxy client to simulate their ssl encrypt and decrypt behavior
+Implement Chrome, Firefox, IE, Edge HTTP, HTTP2, Websocket and Socks client to simulate their ssl encrypt and decrypt behavior
 
 # System Requirement:
 
